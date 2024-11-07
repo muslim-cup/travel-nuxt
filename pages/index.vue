@@ -1,5 +1,5 @@
 <template>
-  <div class="">fred</div>
+  <div class="">img fred</div>
 </template>
 
 <script setup>

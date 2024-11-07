@@ -1,4 +1,4 @@
-<template>
+<template src="" >
   <header id="header">header</header>
 </template>
 
