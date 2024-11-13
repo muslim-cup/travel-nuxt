@@ -9,14 +9,15 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        // 'sert-desc': "url('@/assets/images/sections/5/bg-desc.png')"
+        'logo': "url('/public/bg-header-section.png')"
       },
       fontFamily: {
-        // mulish: ['Mulish', 'sans-serif'],
+        'circular': ['Circular Std', 'sans-serif'],
       },
       colors: {
         transparent: 'transparent',
         regular: {
+          1: '#DF6951'
         }
       },
     },
