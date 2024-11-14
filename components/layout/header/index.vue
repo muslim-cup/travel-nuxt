@@ -1,11 +1,11 @@
 <template src="" >
-  <header id="header" class="bg-logo text-white">
+  <header id="header" class="bg-logo text-white bg-image">
     <div class="container flex justify-between pt-70px pb-100px items-center">
       <div>
         <LayoutUiLogo />
       </div>
       <nav class="nav">
-        <ul class="ul font-circular text-17px font-medium flex gap-50px">
+        <ul class="ul font-circular text-17px font-medium flex gap-50px scale-z-110">
           <li class="li">
             <NuxtLink to="/"
               >Home
@@ -28,5 +28,13 @@
 <script setup>
 </script>
 
-<style lang="scss">
+<style>
+.scale-z-110 {
+  --tw-scale-z: 1.1;
+
+}
+.li:hover {
+  transition: all 1;
+  transform: scale(1.1);
+}
 </style>
